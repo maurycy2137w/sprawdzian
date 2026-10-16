@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jan Kowalski">
+    <meta name="description" content="Music World - sklep z instrumentami muzycznymi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wykonał KOWALSKI</title>
+
+    <style>
+        body {
+            background-color: #f2f0eb;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        /* Trzy linie poziome */
+        .linia1 {
+            border: 2px solid #d4a017;
+            margin: 15px 0;
+        }
+
+        .linia2 {
+            border: 4px double #222222;
+            margin: 25px 0;
+        }
+
+        .linia3 {
+            border: 1px solid #b22222;
+            margin: 35px 0;
+        }
+
+        /* Nagłówek sklepu */
+        h1 {
+            color: #b22222;
+            text-align: center;
+            font-size: 46px;
+            font-style: italic;
+            text-decoration: underline;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+             border: 3px solid black;
+    padding: 15px;
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+        }
+
+        /* Opis sklepu */
+        .opis {
+            border: 1px solid black;
+            margin: 25px auto;
+            padding: 15px;
+            width: 85%;
+            min-height: 300px;
+            overflow: auto;
+            background-color: #fffdf8;
+        }
+
+        .opis h2 {
+            color: #8b4513;
+            text-align: center;
+        }
+
+        .logo {
+            width: 700px;
+            height: 200px;
+            max-width: 100%;
+            object-fit: contain;
+            border: 6px solid #333333;
+            float: left;
+            margin: 10px 20px 15px 0;
+            box-sizing: border-box;
+        }
+
+        .opis p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Lista produktów */
+        .oferta {
+    border: 1px solid black;
+    width: 40%;
+    margin: 25px 0 25px 5%;
+    padding: 20px;
+    background-color: #fffdf8;
+}
+        .oferta h2 {
+            text-align: center;
+            color: #b22222;
+        }
+
+        .oferta li {
+            font-size: 18px;
+            margin: 12px 0;
+        }
+
+        /* Link do menu */
+        .menu {
+            width: 65%;
+            margin: 35px auto;
+            padding: 15px;
+            border: 2px solid #8b4513;
+            background-color: #f5e6c8;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .menu a {
+            color: #8b0000;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+
+        @media (max-width: 700px) {
+            body {
+                margin: 12px;
+            }
+
+            .opis,
+            .oferta,
+            .menu {
+                width: auto;
+            }
+
+            .logo {
+                float: none;
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <hr class="linia1">
+
+    <h1>Music World</h1>
+
+    <hr class="linia2">
+
+    <div class="opis">
+
+        <h2>Witaj w sklepie Music World!</h2>
+
+        <p class="napis-nad-logo">
+        Music World – sklep z instrumentami muzycznymi
+    </p>
+
+    <img
+        src="logo_kowalski.jpg"
+        alt="Logo sklepu muzycznego Music World z motywem instrumentów"
+        class="logo"
+    >
+
+        <p>
+            Music World to sklep dla wszystkich miłośników muzyki.
+            Oferujemy szeroki wybór instrumentów muzycznych dla
+            początkujących oraz profesjonalnych muzyków.
+            W naszym asortymencie znajdziesz instrumenty wysokiej
+            jakości w atrakcyjnych cenach.
+        </p>
+
+        <p>
+            Sprzedajemy gitary elektryczne i akustyczne, pianina,
+            keyboardy, perkusje, skrzypce oraz wiele przydatnych
+            akcesoriów. Naszym klientom zapewniamy fachową pomoc
+            w wyborze odpowiedniego instrumentu.
+        </p>
+
+        <p>
+            Rozwijaj swoją pasję, odkrywaj nowe dźwięki i twórz
+            własną muzykę razem z Music World!
+        </p>
+
+        <div style="clear: both;"></div>
+
+        <hr>
+
+        <p style="text-align: center;">
+            <strong>Music World – Twoja muzyka, Twój świat!</strong>
+        </p>
+
+    </div>
+
+    <!-- Trzecia linia pozioma -->
+    <hr class="linia3">
+
+    <!-- Zakres działalności sklepu -->
+    <div class="oferta">
+
+        <h2>Nasza oferta</h2>
+
+        <ul>
+            <li>Gitary akustyczne i elektryczne</li>
+            <li>Pianina i keyboardy</li>
+            <li>Perkusje i instrumenty perkusyjne</li>
+            <li>Skrzypce i instrumenty smyczkowe</li>
+            <li>Instrumenty dęte</li>
+            <li>Wzmacniacze i sprzęt nagłośnieniowy</li>
+            <li>Struny, kostki i inne akcesoria</li>
+        </ul>
+
+    </div>
+
+    <!-- Link do strony menu -->
+    <div class="menu">
+        <a href="menu_Walczak.html">
+            Przejdź do strony menu
+        </a>
+    </div>
+
+    <!-- Maurycy Walczak 16.10.2026 -->
+    <footer>
+    </footer>
+
+</body>
+</html>
