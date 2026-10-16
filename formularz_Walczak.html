@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jan Kowalski">
+    <title>Wykonał KOWALSKI</title>
+    <style>
+        body {
+            background-color: #e8f0ff;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+            border: 3px solid black;
+            padding: 15px;
+        }
+        form {
+            background-color: white;
+            border: 1px solid black;
+            padding: 25px;
+            max-width: 500px;
+            margin: 30px auto;
+        }
+        input, select, textarea {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            margin: 10px 0 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: darkred;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularz – Music World</h1>
+
+    <form action="mailto:twojemail@example.com"
+          method="post" enctype="text/plain">
+
+        <label>Imię i nazwisko:</label>
+        <input type="text" name="Imie i nazwisko" required>
+
+        <label>Adres e-mail:</label>
+        <input type="email" name="Email" required>
+
+        <label>Wybierz instrument:</label>
+        <select name="Instrument">
+            <option>Gitara</option>
+            <option>Pianino</option>
+            <option>Perkusja</option>
+            <option>Skrzypce</option>
+            <option>Keyboard</option>
+        </select>
+
+        <label>Treść wiadomości:</label>
+        <textarea name="Wiadomosc" rows="5"></textarea>
+
+        <button type="submit">Wyślij formularz</button>
+    </form>
+
+    <p><a href="menu_kowalski.html">Powrót do menu</a></p>
+    <p><a href="index.html">Strona główna</a></p>
+</body>
+</html>
